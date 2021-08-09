@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.family-div {
+    width: 901px;
+    margin: auto;
+    padding-top: 80px;
+}
+.family-box {
+    width: 100%;
+    padding: 102px 0px;
+    background: #d7d3d352;
+    box-shadow: 0px 2px 6px 0.75px grey;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.member {
+    width: 100%;
+    /* max-height: 45px; */
+    border-bottom: 1px solid #a8a0a0;
+    /* overflow: hidden; */
+    margin-bottom: 40px;
+    transition: 0.2s;
+}
+
+.box-headline {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.box-headline button{
+    border:none;
+    outline: none;
+    background:none;
+}
+.box-headline button i {
+    font-size: 14px;
+    margin-right: 3px;
+    font-style: revert;
+    color: #0c0b52;
+    transition: 0.5s;
+}
+.box-headline h3 {
+    text-transform: capitalize;
+    font-family: 'poppins';
+    color: #13266c;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.explaination p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #5e3939;
+    margin-bottom: 14px;
+}
+.explaination{
+    display: none;
+}
+
+ .addKoro {
+    display: block;
+    max-height: 80px;
+}
